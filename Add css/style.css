@@ -193,3 +193,44 @@ p::first-letter {
 a::after {
   content: " ↗";
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.video {
+  width: 200px;
+  height: 120px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
