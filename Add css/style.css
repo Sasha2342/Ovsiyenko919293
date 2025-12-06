@@ -62,3 +62,37 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+form {
+  background-color: #f9f9f9;       /* колір фону */
+  color: #333;                     /* колір тексту */
+  width: 400px;                    /* ширина форми */
+  padding: 20px;                   /* внутрішні відступи */
+  border-radius: 10px;             /* закруглені кути */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* тінь */
+  margin: 20px auto;               /* позиціювання по центру */
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;   /* зелена кнопка */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;   /* ефект при наведенні */
+}
