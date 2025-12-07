@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Практична №4 — Клавіатура без NumPad</title>
-  <link rel="stylesheet" href="Add css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullsize Keyboard</title>
+
+    <!-- Custom Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="keyboard">
-    <!-- Верхній ряд -->
-    <button>Esc</button>
-    <button>F1</button><button>F2</button><button>F3</button><button>F4</button>
-    <button>F5</button><button>F6</button><button>F7</button><button>F8</button>
-    <button>F9</button><button>F10</button><button>F11</button><button>F12</button>
 
-    <!-- Цифри -->
-    <button>~</button>
-    <button>1</button><button>2</button><button>3</button><button>4</button>
-    <button>5</button><button>6</button><button>7</button><button>8</button>
-    <button>9</button><button>0</button><button>-</button><button>=</button>
-    <button class="wide">Backspace</button>
+<div class="keyboard">
 
-    <!-- QWERTY -->
-    <button class="wide">Tab</button>
-    <button>Q</button><button>W</button><button>E</button><button>R</button>
-    <button>T</button><button>Y</button><button>U</button><button>I</button>
-    <button>O</button><button>P</button><button>[</button><button>]</button>
-    <button>\</button>
+    <!-- Row 1 -->
+    <div class="key">Esc</div>
+    <div class="key">F1</div>
+    <div class="key">F2</div>
+    <div class="key">F3</div>
+    <div class="key">F4</div>
+    <div class="key">F5</div>
+    <div class="key">F6</div>
+    <div class="key">F7</div>
+    <div class="key">F8</div>
+    <div class="key">F9</div>
+    <div class="key">F10</div>
+    <div class="key">F11</div>
+    <div class="key">F12</div>
 
-    <!-- ASDF -->
-    <button class="wide">Caps</button>
-    <button>A</button><button>S</button><button>D</button><button>F</button>
-    <button>G</button><button>H</button><button>J</button><button>K</button>
-    <button>L</button><button>;</button><button>'</button>
-    <button class="wide">Enter</button>
+    <!-- Row 2 -->
+    <div class="key w2">Tab</div>
+    <div class="key">Q</div>
+    <div class="key">W</div>
+    <div class="key">E</div>
+    <div class="key">R</div>
+    <div class="key">T</div>
+    <div class="key">Y</div>
+    <div class="key">U</div>
+    <div class="key">I</div>
+    <div class="key">O</div>
+    <div class="key">P</div>
+    <div class="key w3">Backspace</div>
 
-    <!-- ZXCV -->
-    <button class="wide">Shift</button>
-    <button>Z</button><button>X</button><button>C</button><button>V</button>
-    <button>B</button><button>N</button><button>M</button>
-    <button>,</button><button>.</button><button>/</button>
-    <button class="wide">Shift</button>
+    <!-- Row 3 -->
+    <div class="key w3">Caps</div>
+    <div class="key">A</div>
+    <div class="key">S</div>
+    <div class="key">D</div>
+    <div class="key">F</div>
+    <div class="key">G</div>
+    <div class="key">H</div>
+    <div class="key">J</div>
+    <div class="key">K</div>
+    <div class="key">L</div>
+    <div class="key w4">Enter</div>
 
-    <!-- Ctrl/Alt/Space -->
-    <button>Ctrl</button><button>Win</button><button>Alt</button>
-    <button class="space">Space</button>
-    <button>AltGr</button><button>Menu</button><button>Ctrl</button>
-  </div>
+    <!-- Row 4 -->
+    <div class="key w4">Shift</div>
+    <div class="key">Z</div>
+    <div class="key">X</div>
+    <div class="key">C</div>
+    <div class="key">V</div>
+    <div class="key">B</div>
+    <div class="key">N</div>
+    <div class="key">M</div>
+    <div class="key w3">Shift</div>
+
+    <!-- Row 5 -->
+    <div class="key w2">Ctrl</div>
+    <div class="key w2">Win</div>
+    <div class="key w2">Alt</div>
+    <div class="key space">Space</div>
+    <div class="key w2">Alt</div>
+    <div class="key w2">Win</div>
+    <div class="key w2">Menu</div>
+    <div class="key w2">Ctrl</div>
+
+</div>
+
 </body>
 </html>
