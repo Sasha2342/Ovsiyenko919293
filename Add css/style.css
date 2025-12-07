@@ -234,3 +234,50 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: #1a1a1a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.key {
+  background: #444;
+  border: none;
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.key:hover {
+  background: #666;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+.key:active {
+  background: #888;
+  transform: scale(0.98);
+}
+
+.key.wide {
+  grid-column: span 2;
+}
